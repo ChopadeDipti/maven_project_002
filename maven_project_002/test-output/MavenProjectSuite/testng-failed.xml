@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MavenProjectSuite]">
+  <test thread-count="5" name="MavenProjectTest(failed)">
+    <classes>
+      <class name="maven_project_001.maven_project_002.TestngForMavenDemo">
+        <methods>
+          <include name="browser_maximize"/>
+          <include name="getApplicationurl"/>
+          <include name="dbconnectionclosed"/>
+          <include name="Browser_closed"/>
+          <include name="open_browser"/>
+          <include name="loginwithInvaliddetails"/>
+          <include name="capturescreenshot"/>
+          <include name="beforeMethod"/>
+          <include name="DeteleAllCookies"/>
+        </methods>
+      </class> <!-- maven_project_001.maven_project_002.TestngForMavenDemo -->
+    </classes>
+  </test> <!-- MavenProjectTest(failed) -->
+</suite> <!-- Failed suite [MavenProjectSuite] -->
